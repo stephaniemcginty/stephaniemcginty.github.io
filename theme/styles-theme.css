@@ -8,3 +8,13 @@ body {
 b {
     color: #b15931;
 }
+
+img.one {
+    width: 550px;
+    height: 500px;
+}
+
+img.two {
+    width: 375px;
+    height: 500px;
+}
