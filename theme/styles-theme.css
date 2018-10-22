@@ -1,20 +1,41 @@
 body {
     font-size: 133%;
-    font-family: sans-serif;
-    padding-left: 100px;
-    padding-right: 100px;
+    font-family: serif;
+    padding-left: 300px;
+    padding-right: 300px;
+
 }
 
 b {
     color: #b15931;
 }
 
-img.one {
-    width: 550px;
-    height: 500px;
+header {
+    background-color: rgb(221, 220, 220);
+    text-align: center;
 }
 
-img.two {
-    width: 375px;
-    height: 500px;
+header p {
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+
+.byline {
+    font-family: georgia;
+    font-size: 80%;
+    font-style: italic;
+
+}
+
+main {
+    background-color: rgb(221, 220, 220);
+}
+
+footer {
+    background-color: rgb(221, 220, 220);
+    text-align: center;
+}
+
+figure.left {
+    float: left;
 }
