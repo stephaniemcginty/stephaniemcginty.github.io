@@ -6,8 +6,36 @@ body {
 
 }
 
+aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
+}
+
 b {
     color: #b15931;
+} 
+
+button {
+    background-color: hsl(241, 63%, 69%);
+    border: 2px white medium;
+    color: white;
+    text-align: center;    
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgb(221, 220, 220);
+    text-align: center;
+}
+
+figure.left {
+    float: left;
 }
 
 header {
@@ -20,32 +48,15 @@ header p {
     color: rgb(61, 61, 61);
 }
 
-.byline {
-    font-family: georgia;
-    font-size: 80%;
-    font-style: italic;
-
+input#list-data {
+    border: 5px purple solid;
+    border-radius: 15px;
+    font-size: 100%;
+    padding: 5px;
 }
 
 main {
     background-color: rgb(221, 220, 220);
-}
-
-footer {
-    background-color: rgb(221, 220, 220);
-    text-align: center;
-}
-
-figure.left {
-    float: left;
-}
-
-button {
-    background-color: hsl(241, 63%, 69%);
-    border: 2px white medium;
-    color: white;
-    text-align: center;    
-    font-size: 16px;
 }
 
 nav {        
@@ -65,4 +76,45 @@ nav ul {
 nav li {
     display: inline;
     padding: 8px;    
+}
+
+ul#my-list {    
+    background-color: white;
+    border: 10px hsl(241, 63%, 69%) solid;
+    border-radius: 12px;
+    display: block;
+    padding-right: 8px;
+    max-width: 200px;
+}
+
+.byline {
+    font-family: georgia;
+    font-size: 80%;
+    font-style: italic;
+
+}
+
+.btn-padding {
+    padding: 10px;
+    border: 10px purple double;    
+    border-radius: 30px;
+}
+
+.btn-padding:hover {
+    background-color: gray;
+    border-color: white;
+} 
+
+.btn-padding:active {
+    color: black;
+}
+
+.elf-div-border {
+    display: inline-block;
+    border: 1px black solid;
+}
+
+.margin-button {
+    margin: 15px;
+
 }
