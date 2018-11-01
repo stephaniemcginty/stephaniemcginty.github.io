@@ -10,6 +10,11 @@ b {
     color: #b15931;
 }
 
+figcaption {
+    font-size: 80%;
+    text-align: center;
+}
+
 header {
     background-color: rgb(221, 220, 220);
     text-align: center;
@@ -38,6 +43,10 @@ footer {
 
 figure.left {
     float: left;
+}
+
+figure.right {
+    float: right;
 }
 
 nav {        
