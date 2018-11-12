@@ -8,9 +8,10 @@ window.onload = () => {
     functionCalls.onclick = () => {
        simpleFunction();
        functionParameters("Many functions take parameters.");
-       functionReturn();
        const returnValue = functionReturn();
        console.log(returnValue);
+       const simpleFunctionReturn = document.getElementById("function-return");
+       simpleFunctionReturn.textContent = returnValue;  
     }
 
     callUserInput.onclick = () => {
