@@ -20,10 +20,18 @@ window.onload = () => {
     }
 
     areaOfTriangleAction.onclick = () => {
-        const areaOfTriangleInput = document.getElementById('area-of-triangle-input');
+        const areaOfTriangleBase = document.getElementById('area-of-triangle-base');
+        const areaOfTriangleHeight = document.getElementById('area-of-triangle-height');
         const areaOfTriangleDisplay = document.getElementById('area-of-triangle-display');
 
-        areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleInput.value);
+        areaOfTriangleDisplay.textContent = areaOfTriangle(areaOfTriangleBase.value, areaOfTriangleHeight.value);
+    }
+
+    areaOfCircleAction.onclick = () => {
+        const areaOfCircleInput = document.getElementById('area-of-circle-input');
+        const areaOfCircleDisplay = document.getElementById('area-of-circle-display');
+
+        areaOfCircleDisplay.textContent = areaOfCircle(areaOfCircleInput.value);
     }
 
 }
@@ -37,7 +45,9 @@ window.onload = () => {
     }
 
     const areaOfTriangle = (base, height) => {
-        return area = base * height / 2;
+        area = base * height / 2;
+        console.log(area)
+        return area;
     }
 
     const areaOfCircle = (radius) => {
