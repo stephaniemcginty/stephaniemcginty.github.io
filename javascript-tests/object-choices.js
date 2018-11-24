@@ -1,13 +1,16 @@
 var simpleObject = {
     sayName: "Simple Object",
     getName: function() {
-    return this.sayName;
+        return this.sayName;
     }
 };
 
 
 simpleObject.dynamicMethod = "Dynamic Method";
 
+var FunctionObject = {
+    sayName: 
+}
 
 function loader() {
     const objectLiteralButton = document.getElementById('simple-object-action');
@@ -31,4 +34,4 @@ function loader() {
 
 window.onload = loader;
 
-console.log(simpleObject.sayName);
+simpleObject.dynamicMethod();
