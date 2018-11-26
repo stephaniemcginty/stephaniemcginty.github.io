@@ -22,10 +22,6 @@ aside {
     width: 33%;        
 }
 
-b {
-    color: #b15931;
-} 
-
 button {
     background-color: hsl(241, 63%, 69%);
     border: 2px white medium;
