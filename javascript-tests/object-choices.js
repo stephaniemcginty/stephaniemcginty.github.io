@@ -14,16 +14,17 @@ function FunctionObject() {
     var privateFunction = function() {
         return "Private Function";
     }
+}
 
     FunctionObject.prototype.sayName = function() {
-        FunctionObject.privateFunction();
+        this.privateFunction();
     }
-}
+
 
 simpleObject.sayName();
 simpleObject.dynamicMethod();
 var functionObject = new FunctionObject();
-//functionObject.sayName();
+functionObject.sayName();
 
 
 
