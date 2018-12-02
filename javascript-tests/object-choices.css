@@ -119,3 +119,23 @@ ul#my-list {
     margin: 15px;
 
 }
+
+.blueBackground {
+    background-color: royalblue;
+}
+
+.greenBackground {
+    background-color: forestgreen;
+}
+
+.redBackground {
+    background-color: firebrick;
+}
+
+.yellowBackground {
+    background-color: yellow;
+}
+
+.purpleBackground {
+    background-color: purple;
+}
