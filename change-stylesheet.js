@@ -18,10 +18,10 @@ window.onload = () => {
 
 }
 
-function enableStylesheet (node) {
+function enableStylesheet(node) {
     node.rel = 'stylesheet';
-    }
-    
-function disableStylesheet (node) {
+}
+
+function disableStylesheet(node) {
     node.rel = 'alternate stylesheet';
 }               
