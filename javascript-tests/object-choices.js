@@ -13,12 +13,12 @@ simpleObject.dynamicMethod = function() {
 function FunctionObject() {
     var privateFunction = function() {
         return "Private Function";
-    }
-}
+    };
 
     FunctionObject.prototype.sayName = function() {
-        this.privateFunction();
-    }
+        return privateFunction();
+    };
+}
 
 
 simpleObject.sayName();
