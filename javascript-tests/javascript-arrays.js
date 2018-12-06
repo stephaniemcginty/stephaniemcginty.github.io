@@ -12,23 +12,27 @@ window.onload = () => {
 
     numbersAction.onclick = () => {
         const numbersDisplay = document.getElementById("numbers-display");
-        for (let number of arrays.numbers) {
-            const li = document.createElement("li");
-            li.appendChild(document.createTextNode(number));
-            numbersDisplay.appendChild(li);
 
-
-
-            namesAction.onclick = () => {
-                const namesDisplay = document.getElementById("names-display");
-                arrays.names.sort();
-                for (let names of arrays.names) {
-                    const li = document.createElement("li");
-                    li.appendChild(document.createTextNode(names));
-                    namesDisplay.appendChild(li);
-                }
+        const showNumbers = () => {
+            for (let number of arrays.numbers) {
+                const li = document.createElement("li");
+                li.appendChild(document.createTextNode(number));
+                numbersDisplay.appendChild(li);
             }
+        }
 
+        showNumbers();
+        arrays.numbers.sort((a, b) => a - b);
+    };
+
+    namesAction.onclick = () => {
+        const namesDisplay = document.getElementById("names-display");
+        arrays.names.sort();
+        for (let names of arrays.names) {
+            const li = document.createElement("li");
+            li.appendChild(document.createTextNode(names));
+            namesDisplay.appendChild(li);
         }
     }
+
 }
